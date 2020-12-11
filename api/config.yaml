@@ -1,0 +1,13 @@
+http:
+  host_address: ':8080'
+  rate_limit: 10
+  metrics:
+    route: '/metrics'
+    host_address: ':8090'
+database:
+  user: api
+  password: password
+  host: '172.23.16.1'
+  port: '5432'
+  database_name: api
+  ssl: false
